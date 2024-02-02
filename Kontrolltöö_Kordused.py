@@ -75,7 +75,6 @@
 
 ##v4 5
 from random import *
-from re import M
 #sum_num=0
 #sum_km=0
 #for i in range(12):
@@ -120,6 +119,6 @@ while True:
 while k>0 and k>=m:
         k-=m
         pann+=1
-        if k<M:
+        if k<m:
             lisapann+=1
 print("täispannid: ",pann," ja veel on vaja",lisapann," pannid")
